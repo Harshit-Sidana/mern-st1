@@ -1,6 +1,5 @@
-const mongoose = require("mongoose");  // Import mongoose module
+const mongoose = require("mongoose"); 
 
-            // Define a schema for registration
             const employeeSchema = new mongoose.Schema({
                 firstname: {
                     type:String,
